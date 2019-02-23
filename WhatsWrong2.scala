@@ -40,5 +40,5 @@ object WhatsWrong2 {
 
 /*
 Except invert the ceo_id and put get in the beginning of the names of the methods in the Dao
-I'm not sure to know how to improve the code
+
 */
