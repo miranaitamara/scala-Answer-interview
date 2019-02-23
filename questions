@@ -46,4 +46,17 @@ While a POST create data so we need the good URL but we also need the data to se
 At the beginning I wonder if I know someone who already had this problem (colleague, friends (who answer fast), slack, etc).
 If nobody in my acquaintances already this problem I'll search on Google.
 And if don't find something good enough I'll ask to everyone I know in dev (colleague, friends, etc).
+otherwise if I did not find any answer, I will
+-Read the problem
+-Work through the problem manually with at least three sets of sample data
+-Write pseudocode
+-Translate pseudocode into code and debug
+-Simplify and optimize the code
+-Debug
+-Write a useful comments
+-Get feedback through code reviews
+-Practice, practice, practice 
+
 And even if all this does not allow me to have an answer I'll stop working for coming back on it later.
+
+
