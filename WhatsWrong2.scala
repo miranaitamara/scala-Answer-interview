@@ -39,7 +39,8 @@ object WhatsWrong2 {
 }
 
 /*
-Except invert the ceo_id and put get in the beginning of the names of the methods in the Dao
+Except invert the ceo_id and put get in the beginning of the names of the methods in the Dao.
+
 Don't really know, kindof subjective again.But Option can be None, maybe that is what they are after.
 Can fail at .get if None and not Some
 
