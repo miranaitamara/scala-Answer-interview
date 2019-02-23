@@ -1,0 +1,49 @@
+/************************************************************************************************************************/
+1) Explain REST and RESTful
+
+REST means "Representational State Transfer" it's a software architecture style that define how create web services.
+It limit the exchanges between a client and a server.
+A REST API his :
+    - stateless, the server don't know how's the client,
+    - cacheable, the client keep some data so he don't have to always ask the server,
+    - client-server oriented,
+    - with a uniform interface, one of the most important rule, the architecture is simplified,
+    - with a layer system, thanks to intermediate servers
+    - with a code on demand (optional)
+RESTful apply on API, A RESTful API put into practice all the constraints imposed by REST.
+
+/************************************************************************************************************************/
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+
+An API allows to link a client and a database with requests (GET, POST, PUT, DELETE). For this we link the database
+to an URL. Usually the data on this URL are in JSON format. Then we execute the requests on this URL for modify the DDB.
+
+/************************************************************************************************************************/
+3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+
+For modify a DDB we need to execute requests.
+    - GET for read data,
+    - POST for create data,
+    - PUT for update data,
+    - DELETE for remove data
+
+/************************************************************************************************************************/
+4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+
+On a stateful protocol the server keep the information of login while on a stateless protocol the server give a password to
+the client and the client will said this password each time it request the server (if the password didn't change).
+HTTP is a stateless protocol.
+
+/************************************************************************************************************************/
+5) Explain the difference between a GET and a POST (like how are sent the parameters)
+
+A GET alow to obtain data so we only need the good URL to find these data.
+While a POST create data so we need the good URL but we also need the data to send in the body of the request.
+
+/************************************************************************************************************************/
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+
+At the beginning I wonder if I know someone who already had this problem (colleague, friends (who answer fast), slack, etc).
+If nobody in my acquaintances already this problem I'll search on Google.
+And if don't find something good enough I'll ask to everyone I know in dev (colleague, friends, etc).
+And even if all this does not allow me to have an answer I'll stop working for coming back on it later.
